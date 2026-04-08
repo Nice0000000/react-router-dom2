@@ -4,7 +4,6 @@ const Navbar = () => {
   return (
     <nav>
       <ul>
-        {/* Ваші існуючі посилання */}
         <li>
           <Link to="/contact">Контакти</Link>
         </li>
