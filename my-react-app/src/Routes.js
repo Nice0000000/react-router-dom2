@@ -1,11 +1,9 @@
 import { Routes, Route } from 'react-router-dom';
-import ContactPage from './pages/ContactPage'; // Перевірте шлях до файлу
-// ... інші імпорти
+import ContactPage from './pages/ContactPage'; 
 
 const AppRoutes = () => {
   return (
     <Routes>
-      {/* Ваші існуючі маршрути */}
       <Route path="/contact" element={<ContactPage />} />
     </Routes>
   );
